@@ -1,0 +1,147 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# Candidate Sellmuthu G"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 34290947643,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BigW_HomePage_Test.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "",
+        "id": "verify-bigw-loation-and-icon-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4317630950,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The User is in BigW homepage",
+            "match": {
+              "location": "BigW_HomePage_Test.the_User_is_in_BigW_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 919569391,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks on SetLocation",
+            "match": {
+              "location": "BigW_HomePage_Test.user_Clicks_on_SetLocation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 471274916,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user Enters \"2150\" Location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2150",
+                  "offset": 17
+                }
+              ],
+              "location": "BigW_HomePage_Test.the_user_Enters_Location(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2393861370,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select the first Entry",
+            "match": {
+              "location": "BigW_HomePage_Test.select_the_first_Entry()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120209473,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should see the Location",
+            "match": {
+              "location": "BigW_HomePage_Test.the_user_should_see_the_Location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9879842779,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user navigate to Product Details",
+            "match": {
+              "location": "BigW_HomePage_Test.user_navigate_to_Product_Details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2800436208,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click the addToCart",
+            "match": {
+              "location": "BigW_HomePage_Test.user_click_the_addToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 922077934,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Validate the updated Cart Icon",
+            "match": {
+              "location": "BigW_HomePage_Test.validate_the_updated_Cart_Icon()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify BigW_Loation and Icon functionality",
+    "description": "",
+    "id": "verify-bigw-loation-and-icon-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/JB JK/Pictures/eclipsss/BigW_Test/src/resource/java/AutomationSuite/BigB_scenario.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@tag"
+      }
+    ]
+  }
+]

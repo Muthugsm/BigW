@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="56.115851">
+<testcase classname="Verify BigW_Loation and Icon functionality" name="" time="56.115851">
+<system-out><![CDATA[Given The User is in BigW homepage..........................................passed
+When User Clicks on SetLocation.............................................passed
+And The user Enters "2150" Location.........................................passed
+When Select the first Entry.................................................passed
+And The user should see the Location........................................passed
+And user navigate to Product Details........................................passed
+And user click the addToCart................................................passed
+Then Validate the updated Cart Icon.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
